@@ -1,0 +1,12 @@
+*{
+    margin:1%;
+    padding:1%;
+    background-color:#212F3C ;
+    color: aliceblue;
+}
+form{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

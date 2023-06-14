@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ejer2.css">
+    <title>Consulta de viajes</title>
+</head>
+<body>
+    <script src="../javascript/ejer2.js"></script>
+    <form>
+        <label for="destino">Selecciona un destino:</label>
+        <select id="destino">
+            <!-- aquí se agrega las opciones de destinos -->
+          <option value="mexico">México</option>
+          <option value="espana">España</option>
+          <option value="londres">Londres</option>
+          <option value="africa">África</option>
+          <option value="africa">Colombia</option>
+        </select>
+      
+        <label for="duracion">Duración del viaje (en días):</label>
+        <input type="number" id="duracion" min="1">
+      
+        <button type="button" onclick="calcularDescuento()">Calcular descuento</button>
+      </form>
+      
+      <p id="resultado"></p>
+</body>
+</html>
